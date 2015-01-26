@@ -48,11 +48,7 @@ class AcceptDragView: NSView {
                     ud.setObject(list, forKey:"list")
                     ud.synchronize()
                     return true;
-                } else {
-                    return false;
                 }
-            } else {
-                return true;
             }
         }
         return false
